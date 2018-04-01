@@ -7,7 +7,11 @@ public class BaseClass {
 	public static void main(String[] args) {
 		BaseClass b=new BaseClass();
 		b.nagamani();
+
 		b.praveenMethod();
+
+
+		b.shalu();
 
 	}
 	
@@ -32,6 +36,7 @@ public class BaseClass {
 	
 
 	}
+
 	public void praveenMethod() {
 	 
 		String Str=new String();
@@ -53,5 +58,18 @@ public class BaseClass {
 		System.out.println(reverse);
 
 		}
+	
+
+
+	public void shalu() {
+		String original,reverse ="";
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter a string to reverse");
+		original = s.nextLine();
+		int length=original.length();
+		for(int i=length-1;i>=0;i--)
+			reverse=reverse+original.charAt(i);
+		System.out.println("Reverse of Enter a string is:" + reverse);
 	}
+}
 
