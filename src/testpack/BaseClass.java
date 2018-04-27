@@ -1,9 +1,12 @@
 package testpack;
 
+
+
 public class BaseClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		BaseClass b=new BaseClass();
+		b.nagamani();
 
 	}
 	
@@ -11,4 +14,21 @@ public class BaseClass {
 		
 	}
 
+	public void nagamani()
+
+	{
+		String str = "nagamani";
+		 
+		char[] s = str.toCharArray();
+		 
+		for (int i = s.length - 1; i >= 0; i--)
+		{
+		    System.out.print(s[i]);    
+		}
+
+		
+		
+	
+
+	}
 }
