@@ -4,6 +4,18 @@ import java.util.Scanner;
 
 public class BaseClass {
 
+	public void prabakaran() {
+String s = "welcome";
+String x = "";
+for (int i =s.length(); i >= 0; i--) {
+x=x+s.charAt(i);
+}
+System.out.println(x);
+	}
+	
+	
+	
+	
 	public static void main(String[] args) {
 		BaseClass b=new BaseClass();
 		b.nagamani();
@@ -31,7 +43,7 @@ public class BaseClass {
 	
 
 	}
-	public static void main(String[] args) {
+	public static void main1(String[] args) {
 		String original,reverse ="";
 		Scanner in=new Scanner(System.in);
 		System.out.println("Enter a string to reverse");
