@@ -13,7 +13,6 @@ public class BaseClass {
 	public void ganesh(){
 		
 	}
-<<<<<<< HEAD
 public void bharathi() {
 	String original,reverse ="";
 	   Scanner s=new Scanner(System.in);
@@ -24,7 +23,6 @@ public void bharathi() {
 		   reverse=reverse+original.charAt(i);
 		   System.out.println("Reversed of entered String is:" +reverse);
 }
-=======
 
 	public void nagamani()
 
@@ -43,7 +41,7 @@ public void bharathi() {
 	
 
 	}
-	public static void main(String[] args) {
+	public static void main1(String[] args) {
 		String original,reverse ="";
 		Scanner in=new Scanner(System.in);
 		System.out.println("Enter a string to reverse");
@@ -53,5 +51,4 @@ public void bharathi() {
 			reverse=reverse+original.charAt(i);
 		System.out.println("Reverse of Enter a string is:" + reverse);
 	}
->>>>>>> 5d41262f800ef942e021d53918d4dc4d738166d2
 }
