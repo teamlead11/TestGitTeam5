@@ -7,6 +7,7 @@ public class BaseClass {
 	public static void main(String[] args) {
 		BaseClass b=new BaseClass();
 		b.nagamani();
+		b.selvakumar();
 
 	}
 	
@@ -30,6 +31,19 @@ public class BaseClass {
 		
 	
 
+	}
+	public void selvakumar(){
+		
+		String text="First Geeg";
+		StringBuilder reversableText=new StringBuilder();
+		
+		//Append a given string into Stringbuilder(reversableText)
+		reversableText.append(text);
+		
+		//Reverse Given String by Using in built method(stringbuilder.reverse())
+		reversableText=reversableText.reverse();
+		
+		System.out.println("Your Reversed String is:\t"+reversableText);
 	}
 	public static void main(String[] args) {
 		String original,reverse ="";
