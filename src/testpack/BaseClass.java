@@ -5,13 +5,15 @@ import java.util.Scanner;
 public class BaseClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		BaseClass b=new BaseClass();
+		b.nagamani();
 
 	}
 	
 	public void ganesh(){
 		
 	}
+<<<<<<< HEAD
 public void bharathi() {
 	String original,reverse ="";
 	   Scanner s=new Scanner(System.in);
@@ -22,4 +24,34 @@ public void bharathi() {
 		   reverse=reverse+original.charAt(i);
 		   System.out.println("Reversed of entered String is:" +reverse);
 }
+=======
+
+	public void nagamani()
+
+	{
+		String str = "nagamani";
+		 
+		char[] s = str.toCharArray();
+		 
+		for (int i = s.length - 1; i >= 0; i--)
+		{
+		    System.out.print(s[i]);    
+		}
+
+		
+		
+	
+
+	}
+	public static void main(String[] args) {
+		String original,reverse ="";
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter a string to reverse");
+		original = in.nextLine();
+		int length=original.length();
+		for(int i=length-1;i>=0;i--)
+			reverse=reverse+original.charAt(i);
+		System.out.println("Reverse of Enter a string is:" + reverse);
+	}
+>>>>>>> 5d41262f800ef942e021d53918d4dc4d738166d2
 }
