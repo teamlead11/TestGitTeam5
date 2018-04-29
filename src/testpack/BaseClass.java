@@ -8,8 +8,17 @@ public class BaseClass {
 		BaseClass b=new BaseClass();
 		b.nagamani();
 		b.shalu();
+		b.sreelekha();
 	}
 	
+	public void sreelekha() {
+		
+		String st="SreeLekha";
+		char[] c = st.toCharArray();
+		    for (int i = c.length-1; i>=0; i--)
+	          System.out.print(c[i]);
+	}
+
 	public void ganesh(){
 		
 	}
@@ -28,7 +37,6 @@ public class BaseClass {
 
 		
 		
-	
 
 	}
 	public void shalu() {
