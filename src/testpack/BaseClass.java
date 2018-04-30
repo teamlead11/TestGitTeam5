@@ -1,44 +1,17 @@
-package testpack;
-
 import java.util.Scanner;
 
 public class BaseClass {
-
 	public static void main(String[] args) {
-		BaseClass b=new BaseClass();
-		b.nagamani();
-		b.shalu();
-	}
-	
-	public void ganesh(){
-		
-	}
-
-	public void nagamani()
-
-	{
-		String str = "nagamani";
-		 
-		char[] s = str.toCharArray();
-		 
-		for (int i = s.length - 1; i >= 0; i--)
+		System.out.println("enter string to reverse");
+		Scanner s=new Scanner (System.in);
+		String s1=s.nextLine();
+		String reverse= "";
+		for(int i=s1.length()-1;i>=0;i--)
 		{
-		    System.out.print(s[i]);    
+			reverse=reverse+s1.charAt(i);
+			
 		}
-
-		
-		
-	
-
-	}
-	public void shalu() {
-		String original,reverse ="";
-		Scanner s = new Scanner(System.in);
-		System.out.println("Enter a string to reverse");
-		original = s.nextLine();
-		int length=original.length();
-		for(int i=length-1;i>=0;i--)
-			reverse=reverse+original.charAt(i);
-		System.out.println("Reverse of Enter a string is:" + reverse);
+		System.out.println("the reverse string is");
+		System.out.println(reverse);
 	}
 }
