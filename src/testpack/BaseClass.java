@@ -3,12 +3,9 @@ package testpack;
 import java.util.Scanner;
 
 public class BaseClass {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-public class BaseClass1 {
 
 	public static void main(String[] args) {
-		BaseClass1 b=new BaseClass1();
+		BaseClass b=new BaseClass();
 		b.nagamani();
 		b.shalu();
 	}
