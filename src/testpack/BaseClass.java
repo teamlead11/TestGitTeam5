@@ -9,27 +9,24 @@ public class BaseClass {
 		b.nagamani();
 		b.shalu();
 	}
-	
-	public void ganesh(){
-		
+	public void ganesh(){		
 	}
-
+public void TeenaPreethi() {
+String s = "welcome";
+String x = "";
+for (int i = s.length(); i >= 0; i--) {
+	x=x+s.charAt(i);
+}
+System.out.println(x);
+}
 	public void nagamani()
-
 	{
 		String str = "nagamani";
-		 
 		char[] s = str.toCharArray();
-		 
 		for (int i = s.length - 1; i >= 0; i--)
 		{
 		    System.out.print(s[i]);    
 		}
-
-		
-		
-	
-
 	}
 	public void shalu() {
 		String original,reverse ="";
