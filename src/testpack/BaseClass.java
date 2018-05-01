@@ -27,7 +27,7 @@ public class BaseClass {
 	}
 
 	public void raghu() {
-
+		
 		String str = "Java and Selenium";
 		char ch[] = new char[str.length()];
 		System.out.println("\nNormal string : " + str);
@@ -35,7 +35,7 @@ public class BaseClass {
 		for (int i = 0; i < str.length(); i++) 
 			ch[i] = str.charAt(i);
 		
-		System.out.print("Reversed String : ");
+		System.out.print("\nReversed String : ");
 		for (int j = str.length() - 1; j >= 0; j--) 
 			System.out.print(ch[j]);
 		
